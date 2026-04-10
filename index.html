@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remote Call Center Staffing</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f7f9fc;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: white;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #1d4ed8, #0f172a);
+      color: white;
+      padding: 90px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ffffff;
+      color: #0f172a;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e5e7eb;
+    }
+
+    section {
+      padding: 70px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .section-text {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 50px;
+      color: #555;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      color: #0f172a;
+    }
+
+    .how-it-works {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .step {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .step-number {
+      width: 45px;
+      height: 45px;
+      margin: 0 auto 15px;
+      border-radius: 50%;
+      background: #1d4ed8;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .cta {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      border-radius: 16px;
+      padding: 50px 30px;
+    }
+
+    .cta h2 {
+      margin-bottom: 15px;
+      font-size: 2rem;
+    }
+
+    .cta p {
+      margin-bottom: 25px;
+      color: #d1d5db;
+    }
+
+    footer {
+      background: #111827;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 25px 0;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="logo">RemoteStaff Connect</div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">How It Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Connecting Remote Talent With Call Center Agencies</h1>
+      <p>
+        We help call center agencies find dependable remote employees and help job seekers connect with real remote opportunities faster.
+      </p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">What We Do</h2>
+      <p class="section-text">
+        We make the hiring process easier by bridging the gap between call center agencies and qualified remote workers.
+      </p>
+
+      <div class="services">
+        <div class="card">
+          <h3>Agency Partnerships</h3>
+          <p>We work directly with call center agencies to help them find remote employees who are ready to work.</p>
+        </div>
+
+        <div class="card">
+          <h3>Remote Candidate Matching</h3>
+          <p>We connect agencies with candidates whose skills, availability, and goals match their staffing needs.</p>
+        </div>
+
+        <div class="card">
+          <h3>Faster Hiring</h3>
+          <p>Our process helps reduce the time it takes to identify and place strong remote candidates.</p>
+        </div>
+
+        <div class="card">
+          <h3>Professional Support</h3>
+          <p>We provide a smooth experience for both agencies and applicants from first contact to placement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="container">
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-text">
+        A simple process designed to help agencies hire and remote employees get connected.
+      </p>
+
+      <div class="how-it-works">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Apply or Partner</h3>
+          <p>Remote employees submit interest, and agencies share their hiring needs.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Review & Match</h3>
+          <p>We review qualifications and connect the right candidates with the right agencies.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Interview & Place</h3>
+          <p>Agencies interview selected candidates and move forward with hiring.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="cta">
+        <h2>Ready to Build Your Remote Team?</h2>
+        <p>
+          Whether you are a call center agency looking for talent or a remote employee searching for opportunities, we’re here to help.
+        </p>
+        <a href="mailto:youremail@example.com" class="btn">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 RemoteStaff Connect. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

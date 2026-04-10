@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remote Call Center Connections</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #c81e1e;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 90px 20px 70px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 18px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto 28px;
+      font-size: 1.1rem;
+      color: #ffe3e3;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: #c81e1e;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #ffe3e3;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      max-width: 700px;
+      margin: 0 auto;
+      color: #ffe3e3;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background-color: white;
+      color: #222;
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    .card h3 {
+      color: #c81e1e;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .about-text h2 {
+      font-size: 2rem;
+      margin-bottom: 18px;
+    }
+
+    .about-text p {
+      margin-bottom: 16px;
+      color: #ffe3e3;
+    }
+
+    .about-box {
+      background-color: white;
+      color: #222;
+      padding: 32px;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    .about-box h3 {
+      color: #c81e1e;
+      margin-bottom: 8px;
+      margin-top: 18px;
+    }
+
+    .about-box h3:first-child {
+      margin-top: 0;
+    }
+
+    .contact {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 70px;
+    }
+
+    .contact-box {
+      background-color: white;
+      color: #222;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 45px 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+    }
+
+    .contact-box h2 {
+      color: #c81e1e;
+      margin-bottom: 15px;
+      font-size: 2rem;
+    }
+
+    .contact-box p {
+      margin-bottom: 24px;
+    }
+
+    .email-link {
+      display: inline-block;
+      background-color: #c81e1e;
+      color: white;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .email-link:hover {
+      background-color: #a91414;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px 30px;
+      color: #ffe3e3;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        padding: 70px 20px 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Connecting Remote Employees With Call Center Agencies</h1>
+    <p>
+      We help agencies find dependable remote talent and help job seekers connect
+      with real call center opportunities from home.
+    </p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </header>
+
+  <section>
+    <div class="section-title">
+      <h2>What We Offer</h2>
+      <p>
+        Our business creates direct connections between remote employees and call
+        center agencies looking for qualified people ready to work.
+      </p>
+    </div>
+
+    <div class="services">
+      <div class="card">
+        <h3>Agency Talent Matching</h3>
+        <p>
+          We connect call center agencies with remote employees who are prepared
+          for customer service, support, sales, and communication roles.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Remote Job Placement</h3>
+        <p>
+          We help job seekers find remote opportunities that fit their experience,
+          schedule, and professional goals.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Fast, Simple Connections</h3>
+        <p>
+          Our process is focused on creating efficient matches so agencies and
+          candidates can move forward quickly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-text">
+      <h2>Why Businesses Work With Us</h2>
+      <p>
+        Finding reliable remote call center employees takes time. We make the
+        process easier by helping agencies connect with qualified candidates in a
+        more direct way.
+      </p>
+      <p>
+        We also help remote workers find legitimate opportunities with agencies
+        that need dependable people now.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <h3>Reliable Connections</h3>
+      <p>
+        We focus on connecting serious agencies with serious remote professionals.
+      </p>
+
+      <h3>Flexible Opportunities</h3>
+      <p>
+        Support for inbound, outbound, customer service, and other call center
+        positions.
+      </p>
+
+      <h3>Professional Presentation</h3>
+      <p>
+        A straightforward process that helps both sides save time and move faster.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-box">
+      <h2>Start the Conversation</h2>
+      <p>
+        Whether you are an agency looking for remote employees or a professional
+        searching for your next opportunity, we are ready to connect.
+      </p>
+      <a href="mailto:youremail@example.com" class="email-link">youremail@example.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Remote Call Center Connections. All rights reserved.</p>
+  </footer>
+</body>
+</html>
